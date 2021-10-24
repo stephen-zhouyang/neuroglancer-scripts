@@ -36,5 +36,5 @@ for folder in os.listdir(root):
                 f3 = f2 + "/" + s3
                 ss = s1+"_" + s2 + "_" + s3
                 # open(f + "/" + ss, 'wb').write(open(f3, 'rb').read())
-                os.symlink(f3, f + "\\" + ss)
-                print(f + "\\" + ss)
+                os.symlink(f3, f + "/" + ss)
+                print(f + "/" + ss)
